@@ -1,5 +1,13 @@
 <template>
   <div>
+    <nav>
+      <nuxt-link to="/">
+        Home
+      </nuxt-link>
+      <nuxt-link to="/hello">
+        Hello
+      </nuxt-link>
+    </nav>
     <Nuxt />
   </div>
 </template>
